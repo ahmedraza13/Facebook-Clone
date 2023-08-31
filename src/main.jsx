@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import PostCard from './Post.jsx'
+import PrimarySearchAppBar from './Header.jsx'
 import './post.css'
 import profileImage1 from './Images/profile1.png'
 import profileImage2 from './Images/profile2.png'
@@ -10,10 +11,16 @@ import mainImage1 from './Images/main1.jpg'
 import mainImage2 from './Images/main2.jpg'
 import mainImage3 from './Images/main3.jpg'
 import mainImage4 from './Images/main4.jpg'
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+  <PrimarySearchAppBar/>
     <PostCard 
     profileImage={profileImage1}
     name={<b>Saylani Mass IT Training </b>} 

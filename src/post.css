@@ -1,5 +1,7 @@
 body{
-  background: #f0f2f5;
+  background-color: #f0f2f5;
+  margin: 0px;
+  padding: 0px;
 }
 
 
@@ -80,4 +82,11 @@ width: 100%
 .button:hover{
   cursor: pointer;
   color: blue;
+}
+
+@media screen and (max-width: 500px) {
+  .post {
+   width: 100%;
+   max-width: 100%;
+  }
 }
